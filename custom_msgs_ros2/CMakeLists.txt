@@ -20,7 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Cluster.msg"
   "msg/ClusterArray.msg"
   "msg/Track.msg"
-  "msg/TrackArrray.msg"
+  "msg/TrackArray.msg"
   DEPENDENCIES geometry_msgs std_msgs
  )
 

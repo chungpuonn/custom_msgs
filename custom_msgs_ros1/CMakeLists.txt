@@ -26,7 +26,7 @@ add_message_files(
     Cluster.msg
     ClusterArray.msg
     Track.msg
-    TrackArrray.msg
+    TrackArray.msg
 )
 
 generate_messages(
