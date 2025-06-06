@@ -17,6 +17,10 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PseudoGridMap.msg"
+  "msg/Cluster.msg"
+  "msg/ClusterArray.msg"
+  "msg/Track.msg"
+  "msg/TrackArrray.msg"
   DEPENDENCIES geometry_msgs std_msgs
  )
 

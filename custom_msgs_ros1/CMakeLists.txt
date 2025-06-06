@@ -23,6 +23,10 @@ add_message_files(
     msg
   FILES
     PseudoGridMap.msg
+    Cluster.msg
+    ClusterArray.msg
+    Track.msg
+    TrackArrray.msg
 )
 
 generate_messages(
